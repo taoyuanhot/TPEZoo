@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--台北市立動物園-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewControllerAreaCata" customModule="TPEZoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pql-3T-p3r">
+                                <rect key="frame" x="0.0" y="100" width="393" height="718"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AreaCataCell" rowHeight="140" id="LjM-ng-Edh">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LjM-ng-Edh" id="eWw-h1-QBf">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7g-SG-Frn">
+                                                    <rect key="frame" x="152" y="45" width="202" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <string key="text">臣亮言：先帝創業未半，而中道崩殂。今天下三分，益
+州疲敝，此誠危急存亡之秋也！然侍衞之臣，不懈於內；忠
+志之士，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。
+誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲
+薄，引喻失義，以塞忠諫之路也。
+宮中、府中，俱為一體；陟罰臧否，不宜異同。若有作
+奸、犯科，及為忠善者，宜付有司，論其刑賞，以昭陛下平
+明之治；不宜偏私，使內外異法也。
+侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠
+純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，
+悉以咨之，然後施行，必能裨補闕漏，有所廣益。將軍向寵，
+性行淑均，曉暢軍事，試用於昔日，先帝稱之曰「能」，是
+以眾議舉寵為督。愚以為營中之事，事無大小，悉以咨之，
+必能使行陣和睦，優劣得所也。
+親賢臣，遠小人，此先漢所以興隆也；親小人，遠賢臣，
+此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不歎息
+文言經典閱讀與賞析（二）：超世與忠君 謝向榮編著
+諸葛亮《出師表》賞析
+2
+痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉貞亮死節
+之臣也，願陛下親之信之，則漢室之隆，可計日而待也。
+臣本布衣，躬耕於南陽，苟全性命於亂世，不求聞達於
+諸侯。先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮
+臣以當世之事；由是感激，遂許先帝以驅馳。後值傾覆，受
+任於敗軍之際，奉命於危難之間，爾來二十有一年矣！先帝
+知臣謹慎，故臨崩寄臣以大事也。受命以來，夙夜憂歎，恐
+託付不效，以傷先帝之明，故五月渡瀘，深入不毛。今南方
+已定，兵甲已足，當獎帥三軍，北定中原，庶竭駑鈍，攘除
+奸凶，興復漢室，還於舊都。此臣所以報先帝，而忠陛下之
+職分也。至於斟酌損益，進盡忠言，則攸之、禕、允之任也。
+願陛下託臣以討賊興復之效；不效，則治臣之罪，以告
+先帝之靈。若無興德之言，則責攸之、禕、允等之 咎，以彰
+其慢。陛下亦宜自謀，以諮諏善道，察納雅言，深追先帝遺
+詔。臣不勝受恩感激。今當遠離，臨表涕泣，不知所云。</string>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="11" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="xhN-0w-Fgi">
+                                                    <rect key="frame" x="20" y="16" width="110" height="109"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="出師表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Fv-uX-FVc">
+                                                    <rect key="frame" x="156" y="22" width="195" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5oC-va-XVE" kind="show" identifier="segueToVCAreaInfo" id="qlQ-dy-PbP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IwN-aP-9Ys">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="台北市立動物園" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANo-oC-nZS">
+                                        <rect key="frame" x="135.66666666666666" y="65" width="121.99999999999997" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="JNj-F3-PRB"/>
+                                    <constraint firstItem="ANo-oC-nZS" firstAttribute="top" secondItem="IwN-aP-9Ys" secondAttribute="top" constant="65" id="Lr7-m0-bA1"/>
+                                    <constraint firstItem="ANo-oC-nZS" firstAttribute="centerX" secondItem="IwN-aP-9Ys" secondAttribute="centerX" id="cxM-wm-6gm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pql-3T-p3r" firstAttribute="top" secondItem="IwN-aP-9Ys" secondAttribute="bottom" id="2Fq-jK-Eqm"/>
+                            <constraint firstItem="Pql-3T-p3r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ATU-KX-d05"/>
+                            <constraint firstItem="IwN-aP-9Ys" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HvF-in-Gi7"/>
+                            <constraint firstAttribute="trailing" secondItem="IwN-aP-9Ys" secondAttribute="trailing" id="awf-DL-Wgn"/>
+                            <constraint firstItem="Pql-3T-p3r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="k3a-3r-h4N"/>
+                            <constraint firstItem="Pql-3T-p3r" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="qsN-u0-u5K"/>
+                            <constraint firstItem="IwN-aP-9Ys" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zmu-ML-cXq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="台北市立動物園" id="MWX-Xs-V3D"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pql-3T-p3r" id="HCG-cL-8e2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2727.4809160305344" y="-27.464788732394368"/>
+        </scene>
+        <!--View Controller Area Info-->
+        <scene sceneID="VFx-EU-PjP">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="5oC-va-XVE" customClass="ViewControllerAreaInfo" customModule="TPEZoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQa-Bt-Umx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YUV-CU-6ec">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABu-tt-aNE">
+                                        <rect key="frame" x="0.0" y="60" width="51" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system" imagePadding="15"/>
+                                        <connections>
+                                            <action selector="clickButtonBack:" destination="5oC-va-XVE" eventType="touchUpInside" id="mNR-GW-jHF"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="台北市立動物園" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmd-33-CyW">
+                                        <rect key="frame" x="135.66666666666666" y="65" width="121.99999999999997" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4UY-nU-nwe"/>
+                                    <constraint firstItem="ABu-tt-aNE" firstAttribute="leading" secondItem="YUV-CU-6ec" secondAttribute="leading" id="ZLM-uA-1SF"/>
+                                    <constraint firstItem="tmd-33-CyW" firstAttribute="top" secondItem="YUV-CU-6ec" secondAttribute="top" constant="65" id="bOd-1x-SdV"/>
+                                    <constraint firstItem="ABu-tt-aNE" firstAttribute="top" secondItem="YUV-CU-6ec" secondAttribute="top" constant="60" id="dPT-Zu-zj1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="hmP-Tj-f7I"/>
+                                    <constraint firstItem="tmd-33-CyW" firstAttribute="centerX" secondItem="YUV-CU-6ec" secondAttribute="centerX" id="nP4-2g-N1O"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="G6Z-1i-U5K">
+                                <rect key="frame" x="0.0" y="100" width="393" height="752"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AreaInfoCell" rowHeight="313" id="MIV-MZ-vS9">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="313"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MIV-MZ-vS9" id="MmV-dn-ncA">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="313"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="21" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="39G-d9-1I2">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="0Qa-WP-hu7"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="22" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTl-gr-YwP">
+                                                    <rect key="frame" x="20" y="158" width="353" height="104"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <string key="text">臣亮言：先帝創業未半，而中道崩殂。今天下三分，益
+州疲敝，此誠危急存亡之秋也！然侍衞之臣，不懈於內；忠
+志之士，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。
+誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲
+薄，引喻失義，以塞忠諫之路也。
+宮中、府中，俱為一體；陟罰臧否，不宜異同。若有作
+奸、犯科，及為忠善者，宜付有司，論其刑賞，以昭陛下平
+明之治；不宜偏私，使內外異法也。
+侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠
+純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，
+悉以咨之，然後施行，必能裨補闕漏，有所廣益。將軍向寵，
+性行淑均，曉暢軍事，試用於昔日，先帝稱之曰「能」，是
+以眾議舉寵為督。愚以為營中之事，事無大小，悉以咨之，
+必能使行陣和睦，優劣得所也。
+親賢臣，遠小人，此先漢所以興隆也；親小人，遠賢臣，
+此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不歎息
+文言經典閱讀與賞析（二）：超世與忠君 謝向榮編著
+諸葛亮《出師表》賞析
+2
+痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉貞亮死節
+之臣也，願陛下親之信之，則漢室之隆，可計日而待也。
+臣本布衣，躬耕於南陽，苟全性命於亂世，不求聞達於
+諸侯。先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮
+臣以當世之事；由是感激，遂許先帝以驅馳。後值傾覆，受
+任於敗軍之際，奉命於危難之間，爾來二十有一年矣！先帝
+知臣謹慎，故臨崩寄臣以大事也。受命以來，夙夜憂歎，恐
+託付不效，以傷先帝之明，故五月渡瀘，深入不毛。今南方
+已定，兵甲已足，當獎帥三軍，北定中原，庶竭駑鈍，攘除
+奸凶，興復漢室，還於舊都。此臣所以報先帝，而忠陛下之
+職分也。至於斟酌損益，進盡忠言，則攸之、禕、允之任也。
+願陛下託臣以討賊興復之效；不效，則治臣之罪，以告
+先帝之靈。若無興德之言，則責攸之、禕、允等之 咎，以彰
+其慢。陛下亦宜自謀，以諮諏善道，察納雅言，深追先帝遺
+詔。臣不勝受恩感激。今當遠離，臨表涕泣，不知所云。</string>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zan-Qb-zUs">
+                                                    <rect key="frame" x="262" y="267" width="111" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="在網頁開啟"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="39G-d9-1I2" firstAttribute="top" secondItem="MmV-dn-ncA" secondAttribute="top" id="4Gy-CV-RGc"/>
+                                                <constraint firstAttribute="trailing" secondItem="39G-d9-1I2" secondAttribute="trailing" id="58a-XI-qrw"/>
+                                                <constraint firstItem="39G-d9-1I2" firstAttribute="leading" secondItem="MmV-dn-ncA" secondAttribute="leading" id="Xvh-4k-5W5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AnimalCataCell" rowHeight="140" id="sYy-go-0Rt">
+                                        <rect key="frame" x="0.0" y="363" width="393" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sYy-go-0Rt" id="SPn-NT-nWP">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwq-IJ-YqV">
+                                                    <rect key="frame" x="163" y="83" width="192" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <mutableString key="text">臣亮言：先帝創業未半，而中道崩殂。今天下三分，益
+州疲敝，此誠危急存亡之秋也！然侍衞之臣，不懈於內；忠
+志之士，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。
+誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲
+薄，引喻失義，以塞忠諫之路也。
+宮中、府中，俱為一體；陟罰臧否，不宜異同。若有作
+奸、犯科，及為忠善者，宜付有司，論其刑賞，以昭陛下平
+明之治；不宜偏私，使內外異法也。
+侍中、侍郎郭攸之、費禕、董允等，此皆良實，志慮忠
+純，是以先帝簡拔以遺陛下。愚以為宮中之事，事無大小，
+悉以咨之，然後施行，必能裨補闕漏，有所廣益。將軍向寵，
+性行淑均，曉暢軍事，試用於昔日，先帝稱之曰「能」，是
+以眾議舉寵為督。愚以為營中之事，事無大小，悉以咨之，
+必能使行陣和睦，優劣得所也。
+親賢臣，遠小人，此先漢所以興隆也；親小人，遠賢臣，
+此後漢所以傾頹也。先帝在時，每與臣論此事，未嘗不歎息
+文言經典閱讀與賞析（二）：超世與忠君 謝向榮編著
+諸葛亮《出師表》賞析
+2
+痛恨於桓、靈也。侍中、尚書、長史、參軍，此悉貞亮死節
+之臣也，願陛下親之信之，則漢室之隆，可計日而待也。
+臣本布衣，躬耕於南陽，苟全性命於亂世，不求聞達於
+諸侯。先帝不以臣卑鄙，猥自枉屈，三顧臣於草廬之中，諮
+臣以當世之事；由是感激，遂許先帝以驅馳。後值傾覆，受
+任於敗軍之際，奉命於危難之間，爾來二十有一年矣！先帝
+知臣謹慎，故臨崩寄臣以大事也。受命以來，夙夜憂歎，恐
+託付不效，以傷先帝之明，故五月渡瀘，深入不毛。今南方
+已定，兵甲已足，當獎帥三軍，北定中原，庶竭駑鈍，攘除
+奸凶，興復漢室，還於舊都。此臣所以報先帝，而忠陛下之
+職分也。至於斟酌損益，進盡忠言，則攸之、禕、允之任也。
+願陛下託臣以討賊興復之效；不效，則治臣之罪，以告
+先帝之靈。若無興德之言，則責攸之、禕、允等之 咎，以彰
+其慢。陛下亦宜自謀，以諮諏善道，察納雅言，深追先帝遺
+詔。臣不勝受恩感激。今當遠離，臨表涕泣，不知所云。</mutableString>
+                                                    <color key="textColor" systemColor="labelColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="出師表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLm-aE-FF2">
+                                                    <rect key="frame" x="169" y="38" width="204" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="24" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="tv4-mv-iqT">
+                                                    <rect key="frame" x="20" y="15" width="110" height="110"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="XAJ-dJ-SUa" kind="show" identifier="segueToVCAnimalInfo" id="acA-mK-m0T"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kGm-bu-PMc"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="G6Z-1i-U5K" firstAttribute="top" secondItem="YUV-CU-6ec" secondAttribute="bottom" id="9Jd-Rt-EMJ"/>
+                            <constraint firstItem="kGm-bu-PMc" firstAttribute="bottom" secondItem="G6Z-1i-U5K" secondAttribute="bottom" id="9r9-yd-WsM"/>
+                            <constraint firstItem="YUV-CU-6ec" firstAttribute="top" secondItem="LQa-Bt-Umx" secondAttribute="top" id="HyT-Jv-hkw"/>
+                            <constraint firstItem="G6Z-1i-U5K" firstAttribute="leading" secondItem="kGm-bu-PMc" secondAttribute="leading" id="aha-lo-Rk2"/>
+                            <constraint firstAttribute="trailing" secondItem="YUV-CU-6ec" secondAttribute="trailing" id="ccl-pN-q0f"/>
+                            <constraint firstItem="YUV-CU-6ec" firstAttribute="leading" secondItem="LQa-Bt-Umx" secondAttribute="leading" id="elM-2g-K66"/>
+                            <constraint firstItem="G6Z-1i-U5K" firstAttribute="trailing" secondItem="kGm-bu-PMc" secondAttribute="trailing" id="iTB-xd-8v5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ABi-4H-zDk"/>
+                    <connections>
+                        <outlet property="labelTitle" destination="tmd-33-CyW" id="dOQ-ca-wGe"/>
+                        <outlet property="tableView" destination="G6Z-1i-U5K" id="RoI-ai-0l0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T1l-9X-zfT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3445.0381679389311" y="-27.464788732394368"/>
+        </scene>
+        <!--View Controller Animal Info-->
+        <scene sceneID="rHj-OJ-7VT">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="XAJ-dJ-SUa" customClass="ViewControllerAnimalInfo" customModule="TPEZoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tLk-bz-CU0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="vCy-gW-zcC">
+                                <rect key="frame" x="0.0" y="100" width="393" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Dyw-OT-ccU"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rno-Ow-tv1">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axm-8r-1db">
+                                        <rect key="frame" x="0.0" y="60" width="51" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system" imagePadding="15"/>
+                                        <connections>
+                                            <action selector="clickButtonBack:" destination="XAJ-dJ-SUa" eventType="touchUpInside" id="e1b-vo-Wjx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstItem="Axm-8r-1db" firstAttribute="leading" secondItem="Rno-Ow-tv1" secondAttribute="leading" id="Vod-bx-NG4"/>
+                                    <constraint firstItem="Axm-8r-1db" firstAttribute="top" secondItem="Rno-Ow-tv1" secondAttribute="top" constant="60" id="caW-tz-OYz"/>
+                                    <constraint firstAttribute="height" constant="100" id="h5h-Zy-Rbl"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="台北市立動物園" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsg-HU-bIU">
+                                <rect key="frame" x="135.66666666666666" y="65" width="121.66666666666666" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A84-9V-YUI">
+                                <rect key="frame" x="0.0" y="258" width="393" height="594"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SnV-hv-sRt">
+                                        <rect key="frame" x="8" y="8" width="377" height="578"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="I3m-L6-G3O"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="xoF-9y-Uid"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mjB-pP-YKH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vCy-gW-zcC" firstAttribute="leading" secondItem="mjB-pP-YKH" secondAttribute="leading" id="1yy-B6-ocB"/>
+                            <constraint firstItem="Lsg-HU-bIU" firstAttribute="centerX" secondItem="tLk-bz-CU0" secondAttribute="centerX" id="3hO-4w-Gul"/>
+                            <constraint firstItem="Rno-Ow-tv1" firstAttribute="top" secondItem="mjB-pP-YKH" secondAttribute="top" id="9CU-du-Qvk"/>
+                            <constraint firstItem="Rno-Ow-tv1" firstAttribute="leading" secondItem="mjB-pP-YKH" secondAttribute="leading" id="9zB-th-Bnw"/>
+                            <constraint firstItem="A84-9V-YUI" firstAttribute="leading" secondItem="mjB-pP-YKH" secondAttribute="leading" id="FE3-fR-YBa"/>
+                            <constraint firstItem="vCy-gW-zcC" firstAttribute="top" secondItem="Rno-Ow-tv1" secondAttribute="bottom" id="FnH-4S-6tF"/>
+                            <constraint firstItem="A84-9V-YUI" firstAttribute="top" secondItem="vCy-gW-zcC" secondAttribute="bottom" id="KKN-Wm-Wkm"/>
+                            <constraint firstItem="A84-9V-YUI" firstAttribute="bottom" secondItem="mjB-pP-YKH" secondAttribute="bottom" id="MKW-u0-91O"/>
+                            <constraint firstItem="Rno-Ow-tv1" firstAttribute="trailing" secondItem="mjB-pP-YKH" secondAttribute="trailing" id="SEt-P0-8Us"/>
+                            <constraint firstItem="Lsg-HU-bIU" firstAttribute="leading" secondItem="mjB-pP-YKH" secondAttribute="leading" constant="135.66666666666663" id="Yo7-sS-4f8"/>
+                            <constraint firstItem="Rno-Ow-tv1" firstAttribute="top" secondItem="tLk-bz-CU0" secondAttribute="top" id="YxG-XW-dRU"/>
+                            <constraint firstItem="A84-9V-YUI" firstAttribute="trailing" secondItem="mjB-pP-YKH" secondAttribute="trailing" id="bEe-0Y-zFr"/>
+                            <constraint firstItem="Lsg-HU-bIU" firstAttribute="top" secondItem="Rno-Ow-tv1" secondAttribute="top" constant="65" id="mKn-q1-tAq"/>
+                            <constraint firstItem="vCy-gW-zcC" firstAttribute="trailing" secondItem="mjB-pP-YKH" secondAttribute="trailing" id="rAA-xd-LCn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nao-tv-XSQ"/>
+                    <connections>
+                        <outlet property="imageView" destination="vCy-gW-zcC" id="KvZ-dQ-EYw"/>
+                        <outlet property="labelTitle" destination="Lsg-HU-bIU" id="Kud-Mx-dD2"/>
+                        <outlet property="scrollView" destination="A84-9V-YUI" id="par-wb-Qfe"/>
+                        <outlet property="stackView" destination="SnV-hv-sRt" id="0nm-M9-Xh7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pT8-T9-duS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4167.1755725190842" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
+        <image name="loading" width="512" height="512"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
